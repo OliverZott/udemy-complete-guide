@@ -1,5 +1,46 @@
 # UdemyCompleteGuide
+https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/7233704#notes
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
 ## Development server
