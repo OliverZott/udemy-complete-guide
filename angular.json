@@ -88,6 +88,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "udemy-complete-guide"
+    }
+  },
+  "defaultProject": "udemy-complete-guide",
+  "cli": {
+    "analytics": "c907e26b-f77e-4ae8-8838-171906ede6d7"
+  }
 }
