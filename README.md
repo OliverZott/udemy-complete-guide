@@ -1,12 +1,15 @@
 # UdemyCompleteGuide
 https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/7233704#notes
 
+Update TS and packages:
+https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-version-with-npm
 
 
 
 
-
-
+## Linting
+- https://palantir.github.io/tslint/
+- https://github.com/typescript-eslint/typescript-eslint
 
 
 
