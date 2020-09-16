@@ -5,11 +5,16 @@ Update TS and packages:
 https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-version-with-npm
 
 
+## Best Practices
+- Structure (Project / Folder)  
+  - https://angular.io/guide/styleguide#lift
 
 
 ## Linting
 - https://palantir.github.io/tslint/
 - https://github.com/typescript-eslint/typescript-eslint
+- Prettier:  
+  - https://github.com/prettier/tslint-config-prettier
 
 
 
