@@ -9,15 +9,16 @@ https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-
 - Structure (Project / Folder)  
   - https://angular.io/guide/styleguide#lift
 
+## Remarks
+- HTML 
+  - Event Attributes: https://www.w3schools.com/tags/ref_eventattributes.asp
+  - Global Attributes: https://www.w3schools.com/tags/ref_standardattributes.asp
 
 ## Linting
 - https://palantir.github.io/tslint/
 - https://github.com/typescript-eslint/typescript-eslint
 - Prettier:  
   - https://github.com/prettier/tslint-config-prettier
-
-
-
 
 
 
