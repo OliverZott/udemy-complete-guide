@@ -4,8 +4,15 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/72337
 Update TS and packages:
 https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-version-with-npm
 
-https://www.youtube.com/watch?v=JM8kRR0xX7U   
-https://www.youtube.com/watch?v=ZeZPjJgc3Aw
+# Content
+- HTML & CSS styling  
+  - View Encapsulation  
+- Debugging (Browser)
+- Components & Databinding  
+  - Property & Eventbinding
+  - Binding to custom properties
+  - Alias assignment  
+
 
 ## Best Practices
 - Structure (Project / Folder)  
