@@ -8,6 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 
+
+
     recipes: Recipe[] = [
         new Recipe('First recipe', 'nice meal',
             'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/vfvx2mulxwqxyrl4fkfk'),
@@ -21,4 +23,7 @@ export class RecipeListComponent implements OnInit {
     ngOnInit(): void {
     }
 
+    onRecipeSelected() {
+
+    }
 }
