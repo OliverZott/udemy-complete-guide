@@ -1,17 +1,23 @@
 # Udemy Complete Guide
-https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/7233704#notes
+[course-link](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/7233704#notes)
 
-Update TS and packages:
-https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-version-with-npm
+- Set-up rough HTML / CSS construct without functionality  
+  - Bootstrap install & usage
+- Debugging
+- Components & Databinding
 
 # Content
 - HTML & CSS styling  
   - View Encapsulation  
 - Debugging (Browser)
 - Components & Databinding  
-  - Property & Eventbinding
+  - **Property & Eventbinding**
   - Binding to custom properties
-  - Alias assignment  
+  - **Alias** assignment  
+  - Local References (73)
+  - **@ViewChild()** 
+  - **ng-content** ...placeholder in child
+  - **Lifecycle Hooks** (78)
   - *ngFor / @Input to split up child-parent
   - 
 
@@ -24,6 +30,8 @@ https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-
 - HTML 
   - Event Attributes: https://www.w3schools.com/tags/ref_eventattributes.asp
   - Global Attributes: https://www.w3schools.com/tags/ref_standardattributes.asp
+  - Update TS and packages:
+  https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-version-with-npm
 
 ## Linting
 - https://palantir.github.io/tslint/
