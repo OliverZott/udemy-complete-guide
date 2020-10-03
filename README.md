@@ -15,12 +15,11 @@
   - Binding to custom properties
   - **Alias** assignment  
   - Local References (73)
-  - **@ViewChild()** 
   - **ng-content** ...placeholder in child
   - **Lifecycle Hooks** (78)
   - *ngFor / @Input to split up child-parent
-  - 
-
+  - **@ViewChild()** for **Template reference variables**   
+    - Lifecycle-Hook `ngAfterViewInit`
 
 ## Best Practices
 - Structure (Project / Folder)  
