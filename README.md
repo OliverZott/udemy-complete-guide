@@ -20,6 +20,8 @@
   - *ngFor / @Input to split up child-parent
   - **@ViewChild()** for **Template reference variables**   
     - Lifecycle-Hook `ngAfterViewInit`
+- Directives  
+    - Attribute Directives vs Structural Directives (90)
 
 ## Best Practices
 - Structure (Project / Folder)  
