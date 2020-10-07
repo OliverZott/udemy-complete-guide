@@ -21,7 +21,15 @@
   - **@ViewChild()** for **Template reference variables**   
     - Lifecycle-Hook `ngAfterViewInit`
 - Directives  
-    - Attribute Directives vs Structural Directives (90)
+    - Attribute Directives vs Structural Directives (90)    
+        - *ngFor *ngIf [ngSwitch]
+        - [ngClass] [ngStyle]
+    - Custom Attribute-Directives [Renderer](https://angular.io/api/core/Renderer2)
+        - use Property-Selector / import in app.module / get access to element which selector is used on
+        - @HostListener ...to use listener for automated styling
+        - @HostBinding ...easier use of HostListener
+        - @Input for Custom Property Binding  for custom-directive
+    - Custom Structural-Directive 
 
 ## Best Practices
 - Structure (Project / Folder)  
