@@ -29,7 +29,11 @@
         - @HostListener ...to use listener for automated styling
         - @HostBinding ...easier use of HostListener
         - @Input for Custom Property Binding  for custom-directive
+        - Example: `dropdown.directive.ts`
     - Custom Structural-Directive 
+- Services  
+    - Use service for model-array 
+    
 
 ## Best Practices
 - Structure (Project / Folder)  
