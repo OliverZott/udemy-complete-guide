@@ -1,6 +1,15 @@
+import { EventEmitter } from '@angular/core';
+
 import { Recipe } from './recipe.model'
 
 export class RecipeService {
+
+    /**
+     * To avoid emitting-chain: item-list-component-detail  ...single Emitter
+     * 
+     * Aslo possible to encapsulate event (2 emthods: emit event / get-access)
+     */
+    recipeSelected = new EventEmitter<Recipe>();
 
     private recipes: Recipe[] = [
         new Recipe('First recipe', 'nice meal',

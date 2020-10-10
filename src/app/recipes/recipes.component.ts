@@ -12,10 +12,21 @@ export class RecipesComponent implements OnInit {
 
     selectedRecipe: Recipe;
 
-    constructor() {
+    /** 
+     * IMPORTANT: RecipeService is provided exactly on this component  -->
+     *  --> All other components inside ("below") this one 
+     * have the same instance of RecipeService !!!
+     * 
+     */
+    constructor(private recipeService: RecipeService) {
     }
 
     ngOnInit(): void {
+        this.recipeService.recipeSelected.subscribe(
+            (recipe: Recipe) => {
+                this.selectedRecipe = recipe;
+            }
+        );
     }
 
 }
