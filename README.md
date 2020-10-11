@@ -32,8 +32,8 @@
         - Example: `dropdown.directive.ts`
     - Custom Structural-Directive 
 - Services  
-    - Use service for model-array 
-    
+    - ...for model-array 
+    - ...for cross-component communication
 
 ## Best Practices
 - Structure (Project / Folder)  

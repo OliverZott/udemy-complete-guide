@@ -1,13 +1,12 @@
 import { EventEmitter } from '@angular/core';
 
-import { Recipe } from './recipe.model'
+import { Recipe } from './recipe.model';
 
 export class RecipeService {
 
     /**
      * To avoid emitting-chain: item-list-component-detail  ...single Emitter
-     * 
-     * Aslo possible to encapsulate event (2 emthods: emit event / get-access)
+     * Also possible to encapsulate event (2 methods: emit event / get-access)
      */
     recipeSelected = new EventEmitter<Recipe>();
 
@@ -20,11 +19,11 @@ export class RecipeService {
 
 
     /**
-     * Getter with slice() to retirve copy of recipes! 
+     * Getter with slice() to retirve copy of recipes!
      * JS specific (always get reference to ref-types)
-     * 
+     *
      */
-    public getRecipes() {
+    public getRecipes(): Recipe[] {
         return this.recipes.slice();
     }
 

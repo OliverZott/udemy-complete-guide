@@ -21,11 +21,10 @@ export class RecipeItemComponent implements OnInit {
     }
 
     /**
-     * Using emitter of RecipeService to emit current recipe globally 
-     * 
+     * Using emitter of RecipeService to emit current recipe globally
      * Corresponding Listener is in recipes.component !
      */
-    onSelected() {
+    onSelected(): void {
         this.recipeService.recipeSelected.emit(this.recipeItem);
     }
 
