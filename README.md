@@ -33,7 +33,14 @@
     - Custom Structural-Directive 
 - Services  
     - ...for model-array 
-    - ...for cross-component communication
+    - ...for cross-component communication `EventEmitter`
+- Routing  
+    - `RouterModule.forRoot(appRoutes)` in app.module
+    - `routerLink`  `[RouterLink]` for suppress reloading  
+        - `/path` ...absolut path
+        - `path` ...relative path
+        - `./path` ...relative path
+        - `../path` ...relative path, one up
 
 ## Best Practices
 - Structure (Project / Folder)  
